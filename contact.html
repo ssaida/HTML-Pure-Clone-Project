@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="auther" content="Samer Saida">
+    <meta name="description" content="a pure HTML Project as part of reviewing knowledge">
+    <link rel="icon" href="/images/favicon.ico">
+    <title>contact us</title>
+</head>
+<body>
+    <header>
+    <h2>Contact Us</h2>
+    <nav> 
+        <ul>
+            <li><a href="#about">About <abbr title="title page">Pure HTML</abbr></a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="/hourse.html">Store Hours</a></li>
+            <li><a href="/contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <figure>
+        <img src="/images/tacos_close_up_400x260.png" alt="taco and drink image" title="We love taCo" width="400px" height="267">
+            <figcaption>
+                <p>taco and drink close</p>
+            </figcaption>
+        </figure>
+    </header>
+    <main>
+        <section>
+            <h2>Our contact form</h2>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Send us a message</legend>
+                    <p>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Enter name">
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="enter email">
+                    </p>
+                    <p>
+                        <label for="bio">Bio</label><br>
+                        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Enter bio..."></textarea>
+                    </p>
+                    <p>
+                        <button type="submit">Send</button>
+                        <button type="reset">Reset</button>
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+        <section>
+            <h2>Our location</h2>
+            <address>Israel, Haifa</address><br>
+            Phone: <a href="tel:+555555555">555-555-5555</a>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; Samer Saida</p>
+    </footer>
+    <script src="/intro.js"></script>
+</body>
+</html> 
